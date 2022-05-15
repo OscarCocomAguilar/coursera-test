@@ -1,0 +1,92 @@
+/*** Large devices only ***/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33%;
+    float: left;
+}
+}
+
+/*** Medium devices only ***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+}
+}
+
+/*** Small devices only ***/
+@media (max-width: 767px) {
+  .col-sm-12{
+    width: 100%;
+    float: left;
+  }
+}
+
+/*** Our menu text ***/
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*** Columns ***/
+p {
+  border: 1px solid black;
+  background-color: #8c8888;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  font-family: Helvetica;
+  color: white;
+  padding: 30px 10px 5px 10px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.container0{
+  position: relative;
+}
+
+#container1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 97px;
+    height: 39px;
+    background-color: lightpink;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#container2{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 97px;
+  height: 39px;
+  background-color: royalblue;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#container3{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 70px;
+  height: 39px;
+  background-color: green;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
